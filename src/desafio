@@ -1,0 +1,15 @@
+criar tabela de preços de produtos
+utilizando map e mostrar em uma
+coluna 
+
+|||||||||||||||||||||||||||||||||
+| id  |  produtos     |  preço  |
+|||||||||||||||||||||||||||||||||
+|  1  |   maça        |   1.90  |
+|  2  |   batata      |   2.80  |
+|  3  |   café        |   7.90  |
+|  4  |   pão         |   3.40  |
+|  5  |   coca cola   |   5.70  |
+|  6  |   pepse       |   4.60  | 
+|  7  |   uva         |   1.35  |
+|||||||||||||||||||||||||||||||||

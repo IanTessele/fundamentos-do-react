@@ -1,0 +1,33 @@
+.Tabela{
+    border-radius: 5px;
+    border-color: rgb(50, 173, 91);
+}
+.Ident{
+    border-radius: 5px;
+    border-color: rgb(173, 50, 50);
+    color: rgb(143, 36, 36);
+}
+
+.Produto{
+    border-radius: 5px;
+    border-color: rgb(50, 118, 173);
+    color: rgb(50, 52, 173);
+}
+
+.Preco{
+    border-radius: 5px;
+    border-color: rgb(183, 194, 36);
+    color: rgb(194, 107, 36);
+}
+
+table {
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgb(50, 173, 91);
+}
