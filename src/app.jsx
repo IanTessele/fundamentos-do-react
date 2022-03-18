@@ -1,3 +1,4 @@
+//#region todas as importações
 import First from "./components/base/first";
 import Second from "./components/base/second";
 import WithParams from "./components/base/WithParams";
@@ -10,8 +11,12 @@ import FammilyMember from './components/base/familyMember'
 import StudentList from "./components/repetition/StudentList";
 import TabelaProdutos from "./components/repetition/tabelaProdutos";
 import ParOuImpar from "./components/condition/ParOuImpar";
+import UsuarioInfo from "./components/condition/UsuarioInfo";
+import FatherDirect from "./components/comunication/FatherDirect";
+//#endregion
+
 // eslint-disable-next-line import/no-anonymous-default-export
-export default () => {
+export default ()=> {
   return (
     <div className="App">
       <h1>Fundamentos do React</h1>
@@ -23,7 +28,7 @@ export default () => {
           <First /> </Card>
 
         <Card title='#02 - segundo'
-          color='#269'>
+          color='#239'>
           <Second /> </Card>
 
         <Card title='#03 - nota aleatória'
@@ -52,10 +57,20 @@ export default () => {
           color="#393">
             <TabelaProdutos/>
         </Card>
-        <Card title='#07 - Teste de Par ou Impar'
+
+        <Card title='#07 - Renderização Condicional'
           color="#900">
-            <ParOuImpar/>
+            <ParOuImpar numero = {2}/>
+            <UsuarioInfo User = {{name: 'gunter'}}/>
+            <UsuarioInfo User = {{email: 'gunter@email.com'}}/>
+
         </Card>
+
+        
+        {/* <Card title='#08 - Comunicação'
+          color="#839">
+            <FatherDirect/>
+        </Card> */}
 
       </div>
     </div>
