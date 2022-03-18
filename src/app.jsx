@@ -27,7 +27,7 @@ export default ()=> {
           color="#080">
           <First /> </Card>
 
-        <Card title='#02 - segundo'
+        <Card title='#02 - segundo com style aplicado'
           color='#239'>
           <Second /> </Card>
 
@@ -35,7 +35,7 @@ export default ()=> {
           color="#932">
           <WithParams
             title="Situação do aluno"
-            aluno="ian"
+            aluno="vitor"
             min={0}
             max={10} /> </Card>
 
@@ -67,10 +67,10 @@ export default ()=> {
         </Card>
 
         
-        {/* <Card title='#08 - Comunicação'
+        <Card title='#08 - Comunicação direta'
           color="#839">
             <FatherDirect/>
-        </Card> */}
+        </Card>
 
       </div>
     </div>

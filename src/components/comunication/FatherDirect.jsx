@@ -4,13 +4,10 @@ import ChildrenDirect from './childrenDirect'
 export default (props) => {
     return (
         <div>
-            <ChildrenDirect
-                text='children 1'
-                numero={20}
-                bool={true}>
-
-
-            </ChildrenDirect>
+            <ChildrenDirect name='vidor' age={20} nerd={true} />
+            <ChildrenDirect name='duda' age={10} nerd={false} />
+            <ChildrenDirect name='alan' age={8} nerd={true} />
+            <ChildrenDirect name='maria' age={22} nerd={false} />
         </div>
     );
 }
