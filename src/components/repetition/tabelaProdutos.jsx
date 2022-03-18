@@ -7,9 +7,9 @@ export default () => {
         (produdo) => {
             return (
                 <tr key={produdo.id}>
-                    <td className='Ident'>{produdo.id}</td>
-                    <td className='Produto'>{produdo.produto}</td>
-                    <td className='Preco'>R$ {produdo.preco.toFixed(2).replace('.',',')}</td>
+                    {/* <td className='ID'>{produdo.id}</td> */}
+                    <td className='ProdutoValor'>{produdo.produto}</td>
+                    <td className='PrecoValor'>R$ {produdo.preco.toFixed(2).replace('.',',')}</td>
                 </tr>
             );
         }
@@ -20,7 +20,7 @@ export default () => {
 
             <thead>
                 <tr>
-                    <th className='Ident'>Id</th>
+                    {/* <th className='ID'>Id</th> */}
                     <th className='Produto'>Produto</th>
                     <th className='Preco'>Preço</th>
                 </tr>

@@ -2,7 +2,7 @@
     border-radius: 5px;
     border-color: rgb(50, 173, 91);
 }
-.Ident{
+.ID{
     border-radius: 5px;
     border-color: rgb(173, 50, 50);
     color: rgb(143, 36, 36);
@@ -14,10 +14,24 @@
     color: rgb(50, 52, 173);
 }
 
+.ProdutoValor{
+    border-radius: 5px;
+    border-color: rgb(50, 118, 173);
+    color: rgb(50, 52, 173);
+    text-align: left;
+}
+
 .Preco{
     border-radius: 5px;
     border-color: rgb(183, 194, 36);
     color: rgb(194, 107, 36);
+}
+
+.PrecoValor{
+    border-radius: 5px;
+    border-color: rgb(183, 194, 36);
+    color: rgb(194, 107, 36);
+    text-align: left;
 }
 
 table {
