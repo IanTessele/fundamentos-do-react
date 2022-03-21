@@ -15,6 +15,8 @@ import UsuarioInfo from "./components/condition/UsuarioInfo";
 import FatherDirect from "./components/comunication/FatherDirect";
 import StateConfig from "./components/useState/StateConfig";
 import TextInput from "./components/form/input";
+import contador from "./components/contador/contador";
+import Contador from "./components/contador/contador";
 //#endregion
 
 // eslint-disable-next-line import/no-anonymous-default-export
@@ -82,7 +84,11 @@ export default ()=> {
             <TextInput/>
         </Card>
 
-      
+        <Card title='#10 - Contador e Classes'
+          color="#113">
+            <Contador/>
+        </Card>
+
       </div>
     </div>
   );
