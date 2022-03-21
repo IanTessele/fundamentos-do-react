@@ -4,15 +4,17 @@ import Second from "./components/base/second";
 import WithParams from "./components/base/WithParams";
 import React from "react";
 import "./index.css";
-import "./App.css"
+import "./App.css";
 import Card from './components/layout/card';
-import Family from './components/base/family'
-import FammilyMember from './components/base/familyMember'
+import Family from './components/base/family';
+import FammilyMember from './components/base/familyMember';
 import StudentList from "./components/repetition/StudentList";
 import TabelaProdutos from "./components/repetition/tabelaProdutos";
 import ParOuImpar from "./components/condition/ParOuImpar";
 import UsuarioInfo from "./components/condition/UsuarioInfo";
 import FatherDirect from "./components/comunication/FatherDirect";
+import StateConfig from "./components/useState/StateConfig";
+import TextInput from "./components/form/input";
 //#endregion
 
 // eslint-disable-next-line import/no-anonymous-default-export
@@ -63,15 +65,24 @@ export default ()=> {
             <ParOuImpar numero = {2}/>
             <UsuarioInfo User = {{name: 'gunter'}}/>
             <UsuarioInfo User = {{email: 'gunter@email.com'}}/>
-
         </Card>
 
-        
         <Card title='#08 - Comunicação direta'
           color="#839">
             <FatherDirect/>
         </Card>
 
+        <Card title='#09 - useState'
+          color="#753">
+            <StateConfig/>
+        </Card>
+
+        <Card title='#09 - Componentes controlados'
+          color="#313">
+            <TextInput/>
+        </Card>
+
+      
       </div>
     </div>
   );
