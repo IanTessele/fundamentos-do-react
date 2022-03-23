@@ -29,8 +29,8 @@ export default class Contador extends Component {
     render() {
         return (
             <div className="contador">
-                <div>valor</div>
-                <div>{this.state.valorContador}</div>
+                <div className="Text">valor</div>
+                <div className="TextValue">{this.state.valorContador}</div>
                 <div>
                     <button className="button" onClick={this.LessContador}>-</button>
                     <input className="input" onChange={this.setValor} placeholder="digite um valor" />

@@ -16,10 +16,11 @@ import FatherDirect from "./components/comunication/FatherDirect";
 import StateConfig from "./components/useState/StateConfig";
 import TextInput from "./components/form/input";
 import Contador from "./components/contador/contador";
+import EffectAppName from "./components/useEffect/EffectAppName";
 //#endregion
 
 // eslint-disable-next-line import/no-anonymous-default-export
-export default ()=> {
+export default () => {
   return (
     <div className="App">
       <h1>Fundamentos do React</h1>
@@ -53,40 +54,46 @@ export default ()=> {
 
         <Card title='#05 - Lista de Alunos'
           color="#305">
-            <StudentList/>
+          <StudentList />
         </Card>
 
         <Card title='#06 - Tabela de Preços'
           color="#393">
-            <TabelaProdutos/>
+          <TabelaProdutos />
         </Card>
 
         <Card title='#07 - Renderização Condicional'
           color="#900">
-            <ParOuImpar numero = {2}/>
-            <UsuarioInfo User = {{name: 'gunter'}}/>
-            <UsuarioInfo User = {{email: 'gunter@email.com'}}/>
+          <ParOuImpar numero={2} />
+          <UsuarioInfo User={{ name: 'gunter' }} />
+          <UsuarioInfo User={{ email: 'gunter@email.com' }} />
         </Card>
 
         <Card title='#08 - Comunicação direta'
           color="#839">
-            <FatherDirect/>
+          <FatherDirect />
         </Card>
 
         <Card title='#09 - useState'
           color="#753">
-            <StateConfig/>
+          <StateConfig />
         </Card>
 
-        <Card title='#09 - Componentes controlados'
+        <Card title='#10 - useEffect'
+          color="#755">
+          <EffectAppName />
+        </Card>
+
+        <Card title='#10 - Componentes controlados'
           color="#313">
-            <TextInput/>
+          <TextInput />
         </Card>
 
-        <Card title='#10 - Contador e Classes'
+        <Card title='#11 - Contador e Classes'
           color="#113">
-            <Contador/>
+          <Contador />
         </Card>
+
 
       </div>
     </div>
